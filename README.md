@@ -80,18 +80,6 @@ When inserting items, for performance, new items are inserted before the node at
 - `next?` (returns Boolean value checking if a next index exists)
 
 
-#### Pros
-
-- Inserting/deleting elements at the beginning of the Array (due to sequential iteration access)
-- Better at inserting/deleting elements in the middle of the Array (although still requires search time)
-- Useful if the order of your data doesn't matter (if it does then a Stack might be preferrable)
-- Useful if you don't need to search your data in a performant manner
-
-#### Cons
-
-- Slower lookups (due to sequential iteration access, rather than having direct index access)
-- Inserting/deleting elements at the end of the Array (due to sequential iteration access)
-- Long searches or complex sorting can be a performance concern
 
 ---
 
